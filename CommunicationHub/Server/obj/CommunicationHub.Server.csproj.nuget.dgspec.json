@@ -1,0 +1,320 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Server\\CommunicationHub.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub.Core\\CommunicationHub.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub.Core\\CommunicationHub.Core.csproj",
+        "projectName": "CommunicationHub.Core",
+        "projectPath": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub.Core\\CommunicationHub.Core.csproj",
+        "packagesPath": "C:\\Users\\Rookie RockStar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rookie RockStar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "C:\\Users\\Rookie RockStar\\Documents\\Projects\\Packed Projects": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://fintelligence.pkgs.visualstudio.com/_packaging/Avalon/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Blazored.FluentValidation": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.4.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.4.23260.5\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Client\\CommunicationHub.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Client\\CommunicationHub.Client.csproj",
+        "projectName": "CommunicationHub.Client",
+        "projectPath": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Client\\CommunicationHub.Client.csproj",
+        "packagesPath": "C:\\Users\\Rookie RockStar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rookie RockStar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "C:\\Users\\Rookie RockStar\\Documents\\Projects\\Packed Projects": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://fintelligence.pkgs.visualstudio.com/_packaging/Avalon/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub.Core\\CommunicationHub.Core.csproj": {
+                "projectPath": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub.Core\\CommunicationHub.Core.csproj"
+              },
+              "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Shared\\CommunicationHub.Shared.csproj": {
+                "projectPath": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Shared\\CommunicationHub.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23062.2, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.5, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.5, 7.0.5]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.4.23260.5\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Server\\CommunicationHub.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Server\\CommunicationHub.Server.csproj",
+        "projectName": "CommunicationHub.Server",
+        "projectPath": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Server\\CommunicationHub.Server.csproj",
+        "packagesPath": "C:\\Users\\Rookie RockStar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rookie RockStar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.4.23260.5\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Users\\Rookie RockStar\\Documents\\Projects\\Packed Projects": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://fintelligence.pkgs.visualstudio.com/_packaging/Avalon/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Client\\CommunicationHub.Client.csproj": {
+                "projectPath": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Client\\CommunicationHub.Client.csproj"
+              },
+              "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Shared\\CommunicationHub.Shared.csproj": {
+                "projectPath": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Shared\\CommunicationHub.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.4.23260.5\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Shared\\CommunicationHub.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Shared\\CommunicationHub.Shared.csproj",
+        "projectName": "CommunicationHub.Shared",
+        "projectPath": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Shared\\CommunicationHub.Shared.csproj",
+        "packagesPath": "C:\\Users\\Rookie RockStar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rookie RockStar\\source\\repos\\CommunicationHub\\CommunicationHub\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rookie RockStar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "C:\\Users\\Rookie RockStar\\Documents\\Projects\\Packed Projects": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://fintelligence.pkgs.visualstudio.com/_packaging/Avalon/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.4.23260.5\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

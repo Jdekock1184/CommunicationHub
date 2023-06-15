@@ -1,0 +1,12 @@
+C:\Users\Rookie RockStar\source\repos\CommunicationHub\CommunicationHub\Shared\bin\Debug\net7.0\CommunicationHub.Shared.deps.json
+C:\Users\Rookie RockStar\source\repos\CommunicationHub\CommunicationHub\Shared\bin\Debug\net7.0\CommunicationHub.Shared.dll
+C:\Users\Rookie RockStar\source\repos\CommunicationHub\CommunicationHub\Shared\bin\Debug\net7.0\CommunicationHub.Shared.pdb
+C:\Users\Rookie RockStar\source\repos\CommunicationHub\CommunicationHub\Shared\obj\Debug\net7.0\CommunicationHub.Shared.csproj.AssemblyReference.cache
+C:\Users\Rookie RockStar\source\repos\CommunicationHub\CommunicationHub\Shared\obj\Debug\net7.0\CommunicationHub.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rookie RockStar\source\repos\CommunicationHub\CommunicationHub\Shared\obj\Debug\net7.0\CommunicationHub.Shared.AssemblyInfoInputs.cache
+C:\Users\Rookie RockStar\source\repos\CommunicationHub\CommunicationHub\Shared\obj\Debug\net7.0\CommunicationHub.Shared.AssemblyInfo.cs
+C:\Users\Rookie RockStar\source\repos\CommunicationHub\CommunicationHub\Shared\obj\Debug\net7.0\CommunicationHub.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Rookie RockStar\source\repos\CommunicationHub\CommunicationHub\Shared\obj\Debug\net7.0\CommunicationHub.Shared.dll
+C:\Users\Rookie RockStar\source\repos\CommunicationHub\CommunicationHub\Shared\obj\Debug\net7.0\refint\CommunicationHub.Shared.dll
+C:\Users\Rookie RockStar\source\repos\CommunicationHub\CommunicationHub\Shared\obj\Debug\net7.0\CommunicationHub.Shared.pdb
+C:\Users\Rookie RockStar\source\repos\CommunicationHub\CommunicationHub\Shared\obj\Debug\net7.0\ref\CommunicationHub.Shared.dll

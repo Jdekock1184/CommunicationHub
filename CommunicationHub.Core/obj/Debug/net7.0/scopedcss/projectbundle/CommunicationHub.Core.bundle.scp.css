@@ -1,0 +1,11 @@
+/* _content/CommunicationHub.Core/Component1.razor.rz.scp.css */
+.my-component[b-lvp0rxx10x] {
+    border: 2px dashed red;
+    padding: 1em;
+    margin: 1em 0;
+    background-image: url('background.png');
+}
+/* _content/CommunicationHub.Core/Components/MessageHandler.razor.rz.scp.css */
+#message-handler-component[b-sjg03gld95] {
+  background-color: aliceblue;
+}
